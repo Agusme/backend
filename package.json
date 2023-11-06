@@ -1,0 +1,23 @@
+{
+  "name": "backend-crudburgers",
+  "version": "1.0.0",
+  "description": "API REST para una hamburgueseria",
+  "main": "index.js",
+  "scripts": {
+    "test": "https://github.com/Agusme/backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agusme/backend.git"
+  },
+  "keywords": [
+    "API",
+    "REST"
+  ],
+  "author": "Agustina Mena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agusme/backend/issues"
+  },
+  "homepage": "https://github.com/Agusme/backend#readme"
+}
