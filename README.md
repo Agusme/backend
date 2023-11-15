@@ -1,10 +1,11 @@
 <h1 align="center">CrudBurgers - Backend </h1>
 <h2 align="center">Bienvenidos 👋</h2>
+<p>
+
 
 ## Descripción
-
-Este es el backend del proyecto [CrudBurgers]()
-:
+> Este es el backend del proyecto [CrudBurgerss]()
+: 
 <br>El presente proyecto de backend es una API REST con node.js, Express y base de datos mongoDB, con servicios de encriptación de password en login/registro con bcrypt y autentificacón/autorización de usuarios con JWT.
 
 <hr>
