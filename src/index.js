@@ -3,6 +3,7 @@ import morgan from "morgan";
 import cors from "cors";
 import path from "path";
 import './database';
+import router from "./routes/products.routes";
 
 //console.log("desde mi backend")
 //creo la instancia de Express
@@ -24,7 +25,10 @@ app.use(express.urlencoded({extended: true})) // estos 2 ultimos nos permiten re
 //app.use(express.static('public'));
 app.use(express.static(path.join(__dirname,'../public')))
 
+
+
 // rutas de prueba
+app.use('/v1', router)
 
 /* app.get('/', (req, res)=>{
     res.send('Esto es una preuba de mi backend')
