@@ -10,7 +10,7 @@ import router from "./routes/products.routes";
 
 const app = express();
 //configuro el puerto por donde esto va a funcionar
-app.set("port", process.env.PORT || 5000);
+app.set("port", process.env.PORT || 4000);
 
 app.listen(app.get('port'), ()=>(
     console.log('estoy en el puerto' + app.get('port'))
