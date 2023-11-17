@@ -1,6 +1,5 @@
 import { Router } from "express";
 import { createProduct, deleteProduct, getOne, showProduct, updateProduct } from "../controllers/products.controllers";
-import { check } from "express-validator";
 import productValidation from "../middlewares/productValidation";
 //import productController from "../controllers/products.controllers";
 //crear la intancia de router

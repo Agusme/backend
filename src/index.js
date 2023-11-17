@@ -4,6 +4,7 @@ import cors from "cors";
 import path from "path";
 import './database';
 import router from "./routes/products.routes";
+//import auth from "./routes/users.routes";
 import 'dotenv/config' 
 //console.log("desde mi backend")
 //creo la instancia de Express
@@ -29,7 +30,7 @@ app.use(express.static(path.join(__dirname,'../public')))
 
 // rutas de prueba
 app.use('/v1', router)
-
+//app.use('/v1', auth)
 /* app.get('/', (req, res)=>{
     res.send('Esto es una preuba de mi backend')
 }) */
