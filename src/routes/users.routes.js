@@ -1,5 +1,5 @@
-/* import { Router } from "express";
-//import {login, register} from
+import { Router } from "express";
+import { login, register } from "../controllers/users.controllers";
 const router = Router ();
 
 router
@@ -10,4 +10,4 @@ router
 .route('/register')
 .post(register)
 
-export default router; */
+export default router; 

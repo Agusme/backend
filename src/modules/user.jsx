@@ -3,20 +3,21 @@ const userSchema = new Schema({
     name:{
         type: String,
         maxlenght: 100,
-        require: true
+        require: true,
     }, 
     email:{
         type: String,
         maxlenght: 100,
         require: true,
-        unique:true
+        unique:true,
 
     },
     password:{
-        type:String,
-        require: true
+        type: String,
+        require: true,
     }
 });
-const User= mongoose.model('user', userSchema);
+
+const User = mongoose.model('user', userSchema);
 export default User;
 
