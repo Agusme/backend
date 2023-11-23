@@ -11,7 +11,7 @@ import 'dotenv/config'
 
 const app = express();
 //configuro el puerto por donde esto va a funcionar
-app.set("port", process.env.PORT || 4000);
+app.set("port", process.env.PORT || 4002);
 
 app.listen(app.get('port'), ()=>(
     console.log('estoy en el puerto' + app.get('port'))
@@ -33,7 +33,10 @@ app.use('/v1', router);
 app.use('/v1/auth', auth);
 /* app.get('/', (req, res)=>{
     res.send('Esto es una preuba de mi backend')
-}) */
+}) 
 app.delete('/borrarProducto', (req, res)=>{
     res.send('Se borro el producto')
 })
+
+
+*/
