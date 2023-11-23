@@ -12,6 +12,11 @@ const userSchema = new Schema({
         unique:true,
 
     },
+    role:{
+        type: String,
+        maxlength:100,
+        require:true
+    },
     password:{
         type: String,
         require: true,
